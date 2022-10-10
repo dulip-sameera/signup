@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 @font-face {
   font-family: Norse;
   src: url("../../assets/fonts/Norse-Bold.otf") format("opentype");
 }
+
 // root
 $root-fn-size: 16px;
 
@@ -9,3 +12,15 @@ $root-fn-size: 16px;
 $logo-fn-clr: #fff;
 $logo-fn-size: 10rem;
 $logo-fn-family: Norse;
+
+// header
+$header-fn-size: 1.5rem;
+$header-fn-clr: #000;
+$header-fn-family: "Roboto", sans-serif;
+$header-fn-weight: 700;
+
+// footer
+$footer-fn-size: 1.5rem;
+$footer-fn-clr: #000;
+$footer-fn-family: "Roboto", sans-serif;
+$footer-fn-weight: 700;
