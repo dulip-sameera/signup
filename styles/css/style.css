@@ -91,6 +91,37 @@
   color: #000;
   font-weight: 700;
 }
+.main .form .inputs {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main .form .inputs .group {
+  width: 50%;
+  display: flex;
+  gap: 10rem;
+}
+.main .form .inputs .group .input-label {
+  letter-spacing: 0.2rem;
+  font-size: 0.6rem;
+  color: rgb(105, 105, 105);
+}
+.main .form .inputs .group .field {
+  width: 15rem;
+  height: 1.5rem;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 0.2rem;
+  font-family: "Roboto", sans-serif;
+  padding: 0.3rem;
+  color: rgb(63, 63, 63);
+}
+.main .form .inputs .group .field:focus {
+  border: 1px solid rgb(63, 63, 63);
+}
+.main .form .inputs .group .field:invalid {
+  border: 1px solid rgb(250, 36, 36);
+}
 .main .footer {
   height: 30%;
   padding-left: 50px;

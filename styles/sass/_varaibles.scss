@@ -19,13 +19,29 @@ $header-fn-clr: #000;
 $header-fn-family: "Roboto", sans-serif;
 $header-fn-weight: 700;
 
-// footer
-$footer-fn-size: 1.5rem;
-$footer-fn-clr: #000;
-$footer-fn-family: "Roboto", sans-serif;
-$footer-fn-weight: 700;
+// calltoaction - cta
+$cta-fn-size: 1.5rem;
+$cta-fn-clr: #000;
+$cta-fn-family: "Roboto", sans-serif;
+$cta-fn-weight: 700;
 
 //credit
-
 $credit-fn-clr: rgb(139, 139, 139);
 $credit-fn-size: 0.8rem;
+
+// input
+$input-mg-tp: 1rem;
+
+//input-label
+$input-label-ls: 0.2rem;
+$input-label-fn-size: 0.6rem;
+$input-label-fn-clr: rgb(105, 105, 105);
+
+// input field
+$field-border-clr: rgb(105, 105, 105);
+$field-border-radius: 0.2rem;
+$field-fn-family: "Roboto", sans-serif;
+$field-fn-clr: rgb(63, 63, 63);
+
+$field-fc-bd-clr: rgb(63, 63, 63);
+$field-invalid-bd-clr: rgb(250, 36, 36);

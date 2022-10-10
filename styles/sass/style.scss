@@ -97,10 +97,46 @@
     padding-top: 20px;
 
     .calltoaction {
-      font-family: $footer-fn-family;
-      font-size: $footer-fn-size;
-      color: $footer-fn-clr;
-      font-weight: $footer-fn-weight;
+      font-family: $cta-fn-family;
+      font-size: $cta-fn-size;
+      color: $cta-fn-clr;
+      font-weight: $cta-fn-weight;
+    }
+
+    .inputs {
+      margin-top: $input-mg-tp;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      .group {
+        width: 50%;
+        display: flex;
+        gap: 10rem;
+
+        .input-label {
+          letter-spacing: $input-label-ls;
+          font-size: $input-label-fn-size;
+          color: $input-label-fn-clr;
+        }
+
+        .field {
+          width: 15rem;
+          height: 1.5rem;
+          border: 1px solid $field-border-clr;
+          border-radius: $field-border-radius;
+          font-family: $field-fn-family;
+          padding: 0.3rem;
+          color: $field-fn-clr;
+
+          &:focus {
+            border: 1px solid $field-fc-bd-clr;
+          }
+
+          &:invalid {
+            border: 1px solid $field-invalid-bd-clr;
+          }
+        }
+      }
     }
   }
 
