@@ -29,6 +29,16 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.side-bar .overlay .credit {
+  color: rgb(139, 139, 139);
+  font-size: 0.8rem;
+}
+.side-bar .overlay .credit a {
+  color: rgb(139, 139, 139);
 }
 .side-bar .logo-container {
   width: 30%;
