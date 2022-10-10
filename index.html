@@ -65,6 +65,8 @@
                     name="firstName"
                     id="firstName"
                     class="field"
+                    placeholder="Ex: Saman"
+                    required
                   />
                 </div>
                 <div class="right">
@@ -75,6 +77,8 @@
                     name="lastName"
                     id="lastName"
                     class="field"
+                    placeholder="Ex: Perera"
+                    required
                   />
                 </div>
               </div>
@@ -83,9 +87,11 @@
                   <label for="firstName" class="input-label">EMAIL</label><br />
                   <input
                     type="email"
-                    name="firstName"
+                    name="email"
                     id="firstName"
                     class="field"
+                    placeholder="Ex: abc@gmail.com"
+                    required
                   />
                 </div>
                 <div class="right">
@@ -93,10 +99,12 @@
                   ><br />
                   <input
                     type="text"
-                    name="lastName"
+                    name="phonenumber"
                     id="lastName"
                     class="field"
                     maxlength="10"
+                    placeholder="Ex: 07xxxxxxxx"
+                    required
                   />
                 </div>
               </div>
@@ -106,10 +114,12 @@
                   ><br />
                   <input
                     type="password"
-                    name="firstName"
+                    name="password"
                     id="firstName"
                     class="field"
                     minlength="8"
+                    placeholder="********"
+                    required
                   />
                 </div>
                 <div class="right">
@@ -118,18 +128,24 @@
                   ><br />
                   <input
                     type="password"
-                    name="lastName"
+                    name="cnfpassword"
                     id="lastName"
                     class="field"
                     minlength="8"
+                    placeholder="********"
+                    required
                   />
                 </div>
               </div>
             </div>
-          </form>
+            
         </div>
         <!-- footer area -->
-        <div class="footer"></div>
+        <div class="footer">
+          <button type="submit">Create Account</button>
+          </form>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
       </div>
     </div>
   </body>

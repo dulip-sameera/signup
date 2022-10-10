@@ -119,10 +119,41 @@
 .main .form .inputs .group .field:focus {
   border: 1px solid rgb(63, 63, 63);
 }
-.main .form .inputs .group .field:invalid {
+.main .form .inputs .group .field:not(:-moz-placeholder-shown):invalid {
+  border: 1px solid rgb(250, 36, 36);
+}
+.main .form .inputs .group .field:not(:-ms-input-placeholder):invalid {
+  border: 1px solid rgb(250, 36, 36);
+}
+.main .form .inputs .group .field:not(:placeholder-shown):invalid {
   border: 1px solid rgb(250, 36, 36);
 }
 .main .footer {
   height: 30%;
   padding-left: 50px;
+  padding-top: 3rem;
+}
+.main .footer button[type=submit] {
+  width: 228px;
+  height: 45px;
+  background-color: #e97248;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
+}
+.main .footer button[type=submit]:hover {
+  cursor: pointer;
+}
+.main .footer p {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.main .footer p a {
+  color: #e97248;
+}
+.main .footer p a:hover {
+  cursor: pointer;
+}
+.main .footer p a:visited {
+  color: #e97248;
 }/*# sourceMappingURL=style.css.map */
